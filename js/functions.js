@@ -1,3 +1,3 @@
-function escreveSlide(imagem, texto){
-    document.write('<img src="images/'+imagem+'" alt=""><div class="container">'+texto+'</div>');
+function escreveSlide(imagem){
+    document.write('<div class="containerSlide" style="background-image: url(images/'+imagem+'.png); "></div>');
 }
